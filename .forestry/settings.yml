@@ -20,6 +20,11 @@ sections:
 - type: document
   path: content/data/info.json
   label: Info Page
+- type: directory
+  path: ''
+  label: Preregistration
+  create: all
+  match: content/preregistration/**/*
 - type: heading
   label: General Config
 - type: document
