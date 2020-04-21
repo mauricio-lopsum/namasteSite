@@ -1,0 +1,13 @@
+.header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    box-sizing: border-box;
+    padding: 0.75rem calc(50% - 450px);
+    &-row{
+        width: 100%;
+        display: flex;
+    }
+}
